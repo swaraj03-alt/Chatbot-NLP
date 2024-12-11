@@ -65,6 +65,3 @@ try:
     chatbot.converse()
 except Exception as e:
     print(f"Error starting chatbot: {e}")
-
-from google.colab import drive
-drive.mount('/content/drive')
